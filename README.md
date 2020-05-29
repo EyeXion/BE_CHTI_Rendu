@@ -14,6 +14,9 @@ On peut vérifier que le son est bien émis (signal comptabilisé) à chaque foi
 ### Avec le signal 0x33 (déjà dans le fichier)
 
 Lancer ***l'exécution du programme pendant au moins 10s (pour voir les 3 premiers signaux)***.
-On observe bien successivement ***1*** signal comptabilisé pour ***tab_scores[0]***, ***2*** pour ***tab_scores[1]***, ***3*** pour ***nb_occ[3]***
+On observe bien successivement : 
+- 1 point compté pour tab_scores[0] 
+- 2 points comptés pour tab_scores[1]
+- 3 points comptés pour tab_scores[2]
 
 (On peut continuer l'exécution plus longtemps pour vérifier les autres valeurs)
