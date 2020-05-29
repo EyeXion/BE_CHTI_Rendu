@@ -30,11 +30,24 @@ pour les autres valeurs de k sauf les alias de 17 et 18 :
 - Module au carré < 0x0000000F
 
 ### Vérification des valeurs
+(Ouvrir les fichiers main.c et CalculModule.s pour mettre des points d'arrêt)
 
-Pour vérifier les valeurs de partie réelle, imaginaire placer respectivement : 
+Pour changer la valeur de k modifier la variable ***ligne 12***
+
+2 procédures différentes sont nécessaires suivant ce que l'on veut vérifier
+
+#### Vérification du module, de la partie réelle et imaginaire
+Pour vérifier les valeurs de partie réelle, imaginaire placer un point avant debug un point d'arrêt dans le ***main.c ligne 15***. Aller en mode debug au point d'arrêt précédement placé. Placer à ce moment les points d'arrêts indiqués dans le tableau et utiliser la commande "aller au prochain point d'arrêt" pour voir les valeurs désirées.
 
 ||Emplacement du point d'arrêt | Fichier | Variable / registre à observer | 
 |---|:---:|:---:|:---:|
-|Partie imaginaire|ligne 18 | CalculModule.s | r0 |
-|Partie réelle|ligne 23 | CalculModule.s | r0 |
-|Module au carrée|ligne 26 | CalculModule.s | r0 |
+|Partie imaginaire|***ligne 23*** | CalculModule.s | r0 |
+|Partie réelle|***ligne 18*** | CalculModule.s | r0 |
+|Module au carrée|***ligne 26*** | CalculModule.s | r0 |
+
+#### Vérification uniquement du module
+
+Placer un point d'arrêt ***ligne 19 main.c*** et avec la watch window regarder la variable `res_verif`
+### Vérification avec d'autres fichiers
+
+Il est nécessaire d'enlever l'ancien signal f17p30__f18
