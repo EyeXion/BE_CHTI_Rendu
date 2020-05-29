@@ -34,4 +34,4 @@ Pour vérifier les valeurs de partie réelle, imaginaire placer un point avant d
 Placer un point d'arrêt ***ligne 19 main.c*** et avec la watch window regarder la variable `res_verif`
 ### Vérification avec d'autres fichiers
 
-Il est nécessaire d'enlever l'ancien signal f17p30__f18
+Il est nécessaire d'enlever l'ancien signal f17p30__f18 et d'ajouter le nouveau signal
