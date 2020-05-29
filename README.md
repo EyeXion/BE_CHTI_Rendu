@@ -1,2 +1,3 @@
-# BE_CHTI_Rendu
-Travail dans le cadre du BE_CHTI - 3MIC_D Moine Robin Tali Elies
+# Bureau d'Etude CHTI Elies Robin (3MIC-IR Groupe D)
+
+Changer de branche pour choisir le code de l'objectif correspondant
