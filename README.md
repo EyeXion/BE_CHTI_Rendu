@@ -1,4 +1,4 @@
-# Bureau d'Etude CHTI
+# Bureau d'Etude CHTI Elies robin
 
 ## Objectif 1 : Programmer la DFT en simulation sur un tableau de données imposées
 
