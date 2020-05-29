@@ -9,7 +9,7 @@ Après avoir lancé le debugage et le logic analyser, vérifier que la valeur ma
 
 Il est possible de choisir le signal émis ***ligne 6 main.c***
 
-On peut vérifier que le son est bien émis (signal comptabilisé) à chaque fois qu'un des nb_occ atteint 15 et que la valeur nb_occ correspondante est remise à 0 après cela.
+On peut vérifier que le son est bien émis (point comptabilisé) à chaque fois qu'un des nb_occ atteint 15 et que la valeur nb_occ correspondante est remise à 0 après cela.
 
 ### Avec le signal 0x33 (déjà dans le fichier)
 
